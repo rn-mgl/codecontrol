@@ -1,0 +1,326 @@
+#fileName {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #D9961A;
+    padding: 1.2rem 0rem 1.2rem 0rem;
+}
+
+@media screen and (min-device-width: 600px) {
+    #codes-input-container {
+        top: 10rem;
+        left: 5vw;
+        text-align: center;
+        z-index: 2;
+    }
+
+    #buttonContainer {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        min-width: 119.61ch;
+        text-align: center;
+        background: #00000044;
+    }
+}
+
+@media screen and (min-device-width: 1900px) {
+    #codes-input-container {
+        top: 10rem;
+        left: 19vw;
+        text-align: center;
+        z-index: 2;
+    }
+
+    #buttonContainer {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        min-width: 119.61ch;
+        text-align: center;
+        background: #00000044;
+    }
+}
+
+.inputCodes {
+    border: none;
+    outline: none;
+    padding: 2rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.06rem;
+    font-weight: bold;
+    background: #404141;
+    color: #D9961A;
+}
+
+#okCodeBtn {
+    margin-right: 1rem;
+    width: 4rem;
+    height: 2rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background: #D9961A;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #F2F2D5;
+}
+
+#okCodeBtn:hover {
+    transition: 100ms ease-in-out;
+    margin-right: 1rem;
+    width: 4rem;
+    height: 2rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background: #D9961A;
+    opacity: 0.6;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #F2F2D5;
+}
+
+#cancelCodeBtn {
+    width: 6rem;
+    height: 2rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background: #c86767;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #F2F2D5;
+}
+
+#cancelCodeBtn:hover {
+    transition: 100ms ease-in-out;
+    width: 6rem;
+    height: 2rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    opacity: 0.6;
+    background: #c86767;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #F2F2D5;
+}
+
+@media screen and (min-device-width: 600px) {
+    #menuBtn {
+        position: absolute;
+        right: 0.4rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+    }
+
+    #changeNameBtn {
+        position: absolute;
+        top: 6rem;
+        right: 0.4rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+        visibility: hidden;
+    }
+
+    #compilerFormatBtn {
+        position: absolute;
+        right: 0.4rem;
+        top: 6rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-device-width: 1900px) {
+    #menuBtn {
+        position: absolute;
+        right: 17rem;
+        width: 3rem;
+        margin-right: 2rem;
+        background: #252928;
+        border: none;
+    }
+
+    #changeNameBtn {
+        position: absolute;
+        top: 6rem;
+        right: 17rem;
+        margin-right: 2rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+        visibility: hidden;
+    }
+
+    #compilerFormatBtn {
+        position: absolute;
+        right: 17rem;
+        top: 6rem;
+        margin-right: 2rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+        visibility: hidden;
+    }
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+
+@media screen and (min-device-width: 600px) {
+
+    #changeNameContainer {
+        position: fixed;
+        top: 10rem;
+        left: 25rem;
+        text-align: center;
+        border: 0.5rem solid #914a4a;
+        background: #F2F2D5;
+        width: 25rem;
+        min-height: 7rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.205);
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (min-device-width: 1900px) {
+
+    #changeNameContainer {
+        position: fixed;
+        top: 20rem;
+        left: 45rem;
+        text-align: center;
+        border: 0.5rem solid #914a4a;
+        background: #F2F2D5;
+        width: 25rem;
+        min-height: 7rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.205);
+        visibility: hidden;
+    }
+
+    #getMessage  {
+        margin-left: 2rem;
+    }
+
+}
+
+#okNameChangeBtn {
+    margin-right: 7rem;
+    width: 4rem;
+    height: 2rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background: #3A4245;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #F2F2D5;
+}
+
+#cancelNameChangeBtn {
+    position: absolute;
+    width: 6rem;
+    bottom: 2rem;
+    height: 2rem;
+    right: 8.3rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background: #637075;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #F2F2D5;
+}
+
+#nameChangeInput {
+    border: none;
+    outline: none;
+    width: 20rem;
+    height: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.06rem;
+    font-weight: bold;
+    background: #D9961A;
+    color: #3A4245;
+}
+
+#nameChangeText {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.subIn {
+    position: absolute;
+    text-align: center;
+    font-size: 0.9rem;
+    color:#d1d3d1;
+    background: #637075;
+    border-radius: 0.5rem;
+}
+
+#menu {
+    padding: 0.2rem;
+    width: 4rem;
+    top: 0.8rem;
+    right: 3rem;
+    visibility: hidden;
+    opacity: .8;
+}
+
+#changeNameTxt {
+    padding: 0.2rem;
+    width: 7rem;
+    top: 0.8rem;
+    right: 3rem;
+    visibility: hidden;
+    opacity: .8;
+}
+
+#compilerFormat {
+    padding: 0.2rem;
+    width: 9rem;
+    right: 3rem;
+    top: 0.8rem;
+    visibility: hidden;
+    opacity: .8;
+}
+
+#menuBtn:hover #menu {
+    visibility: visible;
+}
+
+#changeNameBtn:hover #changeNameTxt {
+    transition-delay: 500ms;
+    visibility: visible;
+}
+
+#compilerFormatBtn:hover #compilerFormat {
+    transition-delay: 500ms;
+    visibility: visible;
+}
+

@@ -1,0 +1,206 @@
+@media screen and (min-device-width: 600px) {
+    #menuFolderBtn {
+        position: absolute;
+        right: 0.4rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+    }
+
+    #changeNameFolderBtn {
+        position: absolute;
+        top: 6rem;
+        right: 0.4rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+        visibility: hidden;
+    }
+
+    #compilerFormatFolderBtn {
+        position: absolute;
+        right: 0.4rem;
+        top: 6rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-device-width: 1900px) {
+    #menuFolderBtn {
+        position: absolute;
+        right: 17rem;
+        width: 3rem;
+        margin-right: 2rem;
+        background: #252928;
+        border: none;
+    }
+
+    #changeNameFolderBtn {
+        position: absolute;
+        top: 6rem;
+        right: 17rem;
+        margin-right: 2rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+        visibility: hidden;
+    }
+
+    #compilerFormatFolderBtn {
+        position: absolute;
+        right: 17rem;
+        top: 6rem;
+        margin-right: 2rem;
+        width: 3rem;
+        background: #25292800;
+        border: none;
+        visibility: hidden;
+    }
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+@media screen and (min-device-width: 600px) {
+
+    #changeFolderFileNameContainer {
+        position: fixed;
+        top: 10rem;
+        left: 25rem;
+        text-align: center;
+        border: 0.5rem solid #914a4a;
+        background: #F2F2D5;
+        width: 25rem;
+        min-height: 7rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.205);
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (min-device-width: 1900px) {
+
+    #changeFolderFileNameContainer {
+        position: fixed;
+        top: 20rem;
+        left: 45rem;
+        text-align: center;
+        border: 0.5rem solid #914a4a;
+        background: #F2F2D5;
+        width: 25rem;
+        min-height: 7rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.205);
+        visibility: hidden;
+    }
+
+}
+
+#okNameChangeFolderBtn {
+    margin-right: 7rem;
+    width: 4rem;
+    height: 2rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background: #3A4245;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #F2F2D5;
+}
+
+#cancelNameChangeFolderBtn {
+    position: absolute;
+    width: 6rem;
+    bottom: 2rem;
+    height: 2rem;
+    right: 8.3rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background: #637075;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #F2F2D5;
+}
+
+#nameChangeFolderInput {
+    border: none;
+    outline: none;
+    width: 20rem;
+    height: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.06rem;
+    font-weight: bold;
+    background: #D9961A;
+    color: #3A4245;
+}
+
+#nameChangeFolderText {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.subInF {
+    position: absolute;
+    text-align: center;
+    font-size: 0.9rem;
+    color:#d1d3d1;
+    background: #637075;
+    border-radius: 0.5rem;
+}
+
+#menuInF {
+    padding: 0.2rem;
+    width: 4rem;
+    top: 0.8rem;
+    right: 3rem;
+    visibility: hidden;
+    opacity: .8;
+}
+
+#changeNameTxtF {
+    padding: 0.2rem;
+    width: 7rem;
+    top: 0.8rem;
+    right: 3rem;
+    visibility: hidden;
+    opacity: .8;
+}
+
+#compilerFormatF {
+    padding: 0.2rem;
+    width: 9rem;
+    right: 3rem;
+    top: 0.8rem;
+    visibility: hidden;
+    opacity: .8;
+}
+
+#menuFolderBtn:hover #menuInF {
+    visibility: visible;
+}
+
+#changeNameFolderBtn:hover #changeNameTxtF {
+    transition-delay: 500ms;
+    visibility: visible;
+}
+
+#compilerFormatFolderBtn:hover #compilerFormatF {
+    transition-delay: 500ms;
+    visibility: visible;
+}
